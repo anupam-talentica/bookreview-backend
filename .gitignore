@@ -1,0 +1,42 @@
+# Maven
+target/*
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+logs/
+*.log
+
+### Application Properties ###
+application-dev.properties
+application-prod.properties
+
+### AWS ###
+.aws/
+*.pem
+
+### Docker ###
+*.jar
+!target/*.jar
+!pom.xml
+
+### OS generated files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
