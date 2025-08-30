@@ -10,7 +10,7 @@ on:
 env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: bookreview-backend
-  ECS_SERVICE: bookreview-backend-service
+  ECS_SERVICE: dev-bookreview-backend-service
   ECS_CLUSTER: bookreview-cluster
   CONTAINER_NAME: bookreview-backend
 
