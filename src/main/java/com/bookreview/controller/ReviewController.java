@@ -22,7 +22,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/reviews")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com", "http://bookreview-frontend-staging.s3-website.ap-south-1.amazonaws.com"}, allowedHeaders = "*", allowCredentials = "true")
 public class ReviewController {
 
     private final ReviewService reviewService;
