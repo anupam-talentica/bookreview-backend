@@ -32,7 +32,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com", "https://d252osggxcqoe9.cloudfront.net"}, allowedHeaders = "*", allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173", "http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com", "http://d252osggxcqoe9.cloudfront.net", "https://d252osggxcqoe9.cloudfront.net"}, allowedHeaders = "*", allowCredentials = "true")
 public class AuthController {
 
     private final UserService userService;

@@ -29,6 +29,7 @@ public class CorsFilter implements Filter {
             origin.startsWith("http://localhost") ||
             origin.startsWith("http://127.0.0.1") ||
             origin.equals("http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com") ||
+            origin.equals("http://d252osggxcqoe9.cloudfront.net") ||
             origin.equals("https://d252osggxcqoe9.cloudfront.net") ||
             origin.endsWith(".cloudfront.net") ||
             origin.endsWith(".bookreview.com")
