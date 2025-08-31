@@ -99,7 +99,7 @@ app:
       - http://localhost:3000
       - http://localhost:5173
       - http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com
-      - http://bookreview-frontend-staging.s3-website.ap-south-1.amazonaws.com
+      - https://d252osggxcqoe9.cloudfront.net
       - https://bookreview.com
       - https://*.bookreview.com
       - https://*.cloudfront.net

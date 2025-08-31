@@ -102,7 +102,7 @@ app:
       - http://localhost:5173
       - http://127.0.0.1:3000
       - http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com
-      - http://bookreview-frontend-staging.s3-website.ap-south-1.amazonaws.com
+      - https://d252osggxcqoe9.cloudfront.net
       - https://*.cloudfront.net
   
   aws:

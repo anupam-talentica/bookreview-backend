@@ -81,7 +81,8 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(Arrays.asList(
             "http://localhost:*",
             "http://127.0.0.1:*",
-            "http://bookreview-frontend*.s3-website*.amazonaws.com",
+            "http://bookreview-frontend.s3-website.ap-south-1.amazonaws.com",
+            "https://d252osggxcqoe9.cloudfront.net",
             "https://*.cloudfront.net",
             "https://bookreview.com",
             "https://*.bookreview.com"
